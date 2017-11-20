@@ -1,0 +1,65 @@
+/* Add Styles Here */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+section{
+  width: 90vw;
+}
+
+.offerings_container{
+  background-color: #f4f4f4;
+  margin-top: 32px;
+}
+
+.offerings_container div{
+  border: 1px solid white;
+  padding-top: 8px;
+  padding-right: 8px;
+  width: 100%;
+}
+
+.offerings_container h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Raleway, sans-serif;
+}
+
+.offerings_container p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img{
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 1280px) {
+  section{
+    width: 85vw;
+  }
+
+  .offerings_container{
+    margin-top: 40px;
+  }
+  .offerings_container div{
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 33.3333%;
+  }
+}
