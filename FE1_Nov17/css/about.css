@@ -48,7 +48,7 @@ h3{
   font: 300 20px/1.6 Raleway;
 }
 
-img{
+#biography img{
   width: 50%;
   margin-bottom: 20px;
 }
@@ -77,6 +77,27 @@ img{
   text-align: right;
 }
 
+#quote{
+  padding: 30px;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.quote-inline{
+  display: flex;
+  flex-direction: row;
+}
+
+#quote p{
+  font: italic 300 30px/1.4 Merriweather;
+  text-align: center;
+  margin: 0;
+}
+
+.author{
+  display:block;
+  width: 100%;
+}
 
 @media only screen and (min-width: 960px) {
   .offerings_container div{
