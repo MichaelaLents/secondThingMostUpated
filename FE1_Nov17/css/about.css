@@ -80,6 +80,7 @@ h3{
 #quote{
   padding: 30px;
   margin: auto;
+  margin-bottom:90px;
   box-sizing: content-box;
 }
 
@@ -98,6 +99,131 @@ h3{
   display:block;
   width: 100%;
 }
+
+/*
+  For the screens around 600 and 400
+*/
+@media only screen and (max-width: 959px) {
+  *{
+    font-size: 16px;
+  }
+
+  h2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 1.4;
+  }
+
+  h3{
+    font: 900 20px/1.4 Raleway;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #services, #biography, #quote{
+    width: 90vw;
+  }
+
+  .offerings_container{
+    width: 90vw;
+  }
+
+  .offerings_container div{
+    padding: 8px;
+    width: 100%;
+  }
+
+  .offerings_container div p{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #biography img{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #biography .right, #biography .left{
+    width: 100%;
+  }
+
+  #biography p{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #bio-image img{
+    margin-top:32px;
+    margin-bottom: 48px;
+  }
+
+  #quote{
+    padding: 36px;
+    width: auto;
+    margin-bottom:48px;
+    box-sizing: content-box;
+  }
+
+  .quote-inline{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #quote p{
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 0;
+  }
+
+  #quote img{
+    visibility: hidden;
+  }
+
+}
+
+/*@media only screen and (min-width: 600px) {
+  *{
+    font-size: 16px;
+  }
+
+  h2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 1.4;
+  }
+
+  h3{
+    font: 900 20px/1.4 Raleway;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #services, #biography, #quote{
+    width: 90vw;
+  }
+
+  .offerings_container{
+    width: 90vw;
+  }
+
+  .offerings_container div{
+    padding: 8px;
+    width: 100%;
+  }
+
+  .offerings_container div p{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #biography .right{
+    width: 100%;
+  }
+
+}*/
 
 @media only screen and (min-width: 960px) {
   .offerings_container div{
