@@ -1,0 +1,63 @@
+/* Add Styles Here */
+
+*{
+  box-sizing: content-box;
+  font-size: 20px;
+  color: #111111;
+}
+
+#services, #biography, #quote{
+  width: 85vw;
+}
+
+header{
+  margin-bottom: 40px;
+}
+
+h2{
+  font: 900 40px/1.4 Raleway;
+}
+
+h3{
+  font: 900 25px/1.4 Raleway;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.offerings_container{
+  width: 85vw;
+  margin-top: 40px;
+}
+
+.offerings_container div{
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  float: left;
+
+  border: 1px solid white;
+  min-height: 191px;
+  padding: 10px;
+  width: 33.333%;
+}
+
+.offerings_container div p{
+  font: 300 20px/1.6 Raleway;
+  text-align: center;
+}
+
+@media only screen and (min-width: 960px) {
+  .offerings_container div{
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .offerings_container{
+    width: 85vw;
+  }
+
+  .offerings_container div{
+    width: 33.333%;
+  }
+}
