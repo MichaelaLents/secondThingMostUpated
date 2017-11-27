@@ -10,12 +10,10 @@
   width: 85vw;
 }
 
-header{
-  margin-bottom: 40px;
-}
-
 h2{
   font: 900 40px/1.4 Raleway;
+  margin-top: 40px;
+  margin-bottom:40px;
 }
 
 h3{
@@ -27,7 +25,7 @@ h3{
 
 .offerings_container{
   width: 85vw;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 
 .offerings_container div{
@@ -45,6 +43,40 @@ h3{
   font: 300 20px/1.6 Raleway;
   text-align: center;
 }
+
+#biography p{
+  font: 300 20px/1.6 Raleway;
+}
+
+img{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#bio-image img{
+  width: 100vw;
+  margin-top:40px;
+  margin-bottom: 90px;
+}
+
+.spacer{
+  margin-bottom: 20px;
+}
+
+.right{
+  float: right;
+  margin-left: 24px;
+}
+
+.left{
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right{
+  text-align: right;
+}
+
 
 @media only screen and (min-width: 960px) {
   .offerings_container div{
